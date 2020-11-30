@@ -11,7 +11,17 @@
 int main(void){
 
 
-// comentario do Guarino pra mostrar engajamento
+// Declaração de variaveis
+  
+  
+  
+  
+  
+
+  
+  
+// Rotina de Repetição
+  
 
   return 0;
 }
