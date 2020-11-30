@@ -21,3 +21,6 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356), desenvo
 
 ## Requisitos do Sistema:
 * Para o projeto precisaremos de uma plataforma de prototipagem eletrônica, programável em linguagem C ou C++, e que tenha conexão com rede. Iremos usar o protocolo de comunicação TCP.
+
+
+## Código
