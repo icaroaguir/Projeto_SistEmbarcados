@@ -17,6 +17,6 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356), desenvo
 * Glauco Caurin
 
 ## Descrição do Projeto:
-* Será implementado o código de um robô escalador de um grau de liberdade. O controle de tal robô é efetuando com o auxilio de um sensor de posição.
+* Será implementado o código de um robô escalador de um grau de liberdade. O controle do robô é efetuando com o auxilio de um sensor de ultrassom (para medir distancia) ou com o auxilio de um enconder que irá contabilizar quantas voltas a rodinha deu e calcular a distancia percorrida pelo robo.
 
 ## Requisitos do Sistema:
