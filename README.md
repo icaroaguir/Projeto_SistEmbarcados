@@ -20,4 +20,4 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356), desenvo
 * Será implementado o código de um robô escalador de um grau de liberdade. O controle do robô é efetuando com o auxilio de um sensor de ultrassom (para medir distancia) ou com o auxilio de um enconder que irá contabilizar quantas voltas a rodinha deu e calcular a distancia percorrida pelo robo.
 
 ## Requisitos do Sistema:
-* Para o projeto precisaremos de microcontrolador programável em linguagem C ou C++, e que tenha conexão com rede. 
+* Para o projeto precisaremos de uma plataforma de prototipagem eletrônica, programável em linguagem C ou C++, e que tenha conexão com rede. 
