@@ -17,7 +17,8 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356), desenvo
 * Glauco Caurin
 
 ## Descrição do Projeto:
-* Será implementado o código de um robô escalador de um grau de liberdade. O controle do robô é efetuando com o auxilio de um sensor de ultrassom (para medir distancia) ou com o auxilio de um enconder que irá contabilizar quantas voltas a rodinha deu e calcular a distancia percorrida pelo robo.
+* Será implementado o código de um sistema controlador do processo de fermentação de cerveja. Conforme visto na figura abaixo:
+![Circuito](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/circuito.png)
 
 ## Requisitos do Sistema:
 * Para o projeto precisaremos de uma plataforma de prototipagem eletrônica, programável em linguagem C ou C++, e que tenha conexão com rede. Iremos usar o protocolo de comunicação TCP.
