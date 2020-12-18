@@ -29,7 +29,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356), desenvo
 7. Microcontrolador.
 
 ## Requisitos do Sistema:
-* Para o projeto foi utilizada a plataforma de prototipagem eletrônica, Tinkercad, onde era possível utilizar nosso circuito em conjunto com o microcontrolador e verificar a lógica do código em conjunto com a funcionalidade do circuito.
+* Para esse projeto foi utilizada a plataforma de prototipagem eletrônica, Tinkercad, onde era possível utilizar nosso circuito em conjunto com o microcontrolador e verificar a lógica do código em conjunto com a funcionalidade do circuito.
 
 
 ## Implementação para um produto real:
