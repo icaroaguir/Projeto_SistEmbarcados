@@ -4,11 +4,11 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 
 ### Alunos:
 
-* Edson Jose Brumatti Junior - 9880169
-* Gabriel Guarino - 9866419
-* Ícaro Almeida Aguiar - 9805042
+* Edson Jose Brumatti Junior - 9880169 - https://github.com/icaroaguir
+* Gabriel Guarino - 9866419 - https://github.com/gabrielguarino97
+* Ícaro Almeida Aguiar - 9805042 - https://github.com/EdsonBrumatti
 * Jorge Luis Faneco Paschoa - 9805824
-* Matheus Borghi Ricardo de Oliveira - 8910517
+* Matheus Borghi Ricardo de Oliveira - 8910517 - https://github.com/mtsborghi
 
 ### Instituição:
 * Escola de Engenharia de São Carlos - USP
