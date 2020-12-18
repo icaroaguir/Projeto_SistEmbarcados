@@ -1,6 +1,6 @@
 # Projeto de Controle de uma Fermentação de Cerveja
 
-Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356), desenvolvido pelos alunos do curso de Engenharia Mecatrônica. A intenção do projeto é implementar um sistema de controle de fermentação de cerveja em uma caldeira industrial. 
+Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos alunos do curso de Engenharia Mecatrônica. A intenção do projeto é implementar um sistema de controle de fermentação de cerveja em uma caldeira industrial. 
 
 ### Alunos:
 
