@@ -17,7 +17,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 * Glauco Augusto de Paula Caurin
 
 ## Descrição do Projeto:
-* Será implementado o código de um sistema controlador do processo de fermentação de cerveja. Conforme visto na figura abaixo:
+* Será implementado um controlador para um processo de fermentação de cerveja, com controle de temperatura e nível de CO2 dentro da câmara de fermentação. Conforme visto na figura abaixo:
 ![Circuito](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/circuito.png)
 * No circuito constam os seguites elementos e suas funções:
 1. Sensor de temperatura -> Aferir a temperatura da mistura líquida.
