@@ -21,7 +21,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 ![Circuito](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/circuito.png)
 * No circuito constam os seguites elementos e suas funções:
 1. Sensor de temperatura -> Aferir a temperatura da mistura líquida.
-2. Potenciometros -> Promovem a interface para regular a temperatura da mistura líquida, e o nível máximo de CO2 dentro da câmara.
+2. Potênciometros -> Promovem a interface para regular a temperatura da mistura líquida, e o nível máximo de CO2 dentro da câmara.
 3. Servos motores -> Utilizados para regularem a abertura da válvula de gás para o fogareiro, e a válvula de liberação de CO2 para a atmosfera.
 4. Motor DC -> Liga e controla a velocidade do misturador do mosto.
 5. Buzzer -> Interface sonora que sinaliza o término do processo de fermentação, ou algum problema que ocorra no sistema.
@@ -29,7 +29,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 7. Microcontrolador -> Plataforma de desenvolvimento que oferece controle e manipulação a partir da comunicação entre sensores, atuadores e sua programação. 
 
 ## Subsistemas
-* Configurar entradas: 
+* Configurar entradas: Para configurar os valores das entradas de temperatura e CO2, o usuario precisará pressionar o botão de configuração uma vez, o que habilitará que o sistema capture os valores dos potênciometros, então o usuário irá mexer nos potênciometros de forma a atingir os valores de temperatura e nivel de co2 que desejar, e irá pressionar o botão de configuração novamente para salvar os valores configurados.
 
 * Temperatura: O subsistema de temperatura conta com um botão, um Sensor de Temperatura (TMP), um Microservo de Posição e um Potenciometro. O operador aperta o botão que lhe permite escolher a temperatura girando o potenciometro. O sensor de temperatura monitora a temperatura e enquanto a temperatura medida for menor que a desejada o Microservo mantem a valvula de gás da caldeira aberta. Caso a temperatura seja maior ou igual a temperatura desejada, o Microserve fecha a valvula
 
