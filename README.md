@@ -22,7 +22,7 @@ A realização do processo de fermentação de bebidas foi praticada pelos povos
 
 O processo de fermentação em si, faz com que as leveduras consumam todos os açúcares fermentáveis contidos na planta, gerando pôster e principalmente, o álcool e o CO2. Mas não são somente esses itens que são produzidos na fermentação, os aromas e os sabores por exemplo, que são grandes valores da cerveja são produzidos também, somados com a redução do Ph da cerveja.
 
-![Circuito](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/cervejatemp.png)
+![Cervejatemp](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/cervejatemp.png)
 
 Em praticamente todas receitas de cerveja é indicado uma temperatura ideal para a fermentação.Isso se deve ao fato de que para a levedura trabalhar e converter todo o açúcar do mosto em álcool são necessárias condições ideais. E a temperatura é uma das principais!
 Quando a temperatura se encontra na faixa ideal da levedura, este pode fazer o seu trabalho de modo mais natural e sem estresse.
