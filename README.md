@@ -32,7 +32,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 * Temperatura: O subsistema de temperatura conta com um botão, um Sensor de Temperatura (TMP), um Microservo de Posição e um Potenciometro. O operador aperta o botão que lhe permite escolher a temperatura girando o potenciometro. O sensor de temperatura monitora a temperatura e enquanto a temperatura medida for menor que a desejada o Microservo mantem a valvula de gás da caldeira aberta. Caso a temperatura seja maior ou igual a temperatura desejada, o Microserve fecha a valvula
 
 * CO2
-
+3. Display LCD: O display LCD será responsável por dar visualização do status do sistema de controle de temperaturado sistema, viabilizando o monitoramento em tempo real se o input de temperatura desejada está sendo atingida e mantida.
 
 
 ## Requisitos do Sistema:
