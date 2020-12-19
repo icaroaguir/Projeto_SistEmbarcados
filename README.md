@@ -35,7 +35,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 
 * CO2: O subsistema conta com um Sensor de CO2, um Servomotor, um potênciometro, e um botão. O usurario vai setar o nivel maximo de CO2 na mistura utilizando o potenciometeo e o botão. Caso a concentração de CO2 passe do valor maximo escolhido, o Servomotor vai abrir a valvula rotular de escape de CO2 proporcionalmente ao quanto a concentração está mais alta que o máximo, sendo 100% acima abrindo toda a valvula.
 
-* Buzzer:
+* Buzzer: O Buzzer será responsável por alertar o usuário do sistema quando a temperatura desejada estiver fora do padrão dado um erro de dois(02) graus célsius acima ou abaixo do desejado. Dessa forma o alerta será dado de forma a previnir algum acidente e que o usuário perca o produto, pois o controle de temperatura é essencial no processo de fermentação.
 
 * Display LCD: O display LCD será responsável por dar visualização do status do sistema de controle de temperaturado sistema, viabilizando o monitoramento em tempo real se o input de temperatura desejada está sendo atingida e mantida.
 
