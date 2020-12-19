@@ -76,6 +76,7 @@ A mistura será aquecida e mantida na temperatura desejada, e pelo tempo que o u
 * https://www.arduino.cc/reference/en/libraries/servo/
 * https://www.arduino.cc/en/Reference/LiquidCrystal
 
+
 ## Instalação:
 Tela LCD Hitachi HD44780
 * RS -> Porta D12
@@ -90,21 +91,30 @@ Potenciômetros
 * CO2 -> A2
 * Tempo -> A3
 
-TMP36
+Sensor de Temperatura TMP36
 * Referência -> A0
 
-Sensor de Gás
+Sensor de Gás Winsen
 * Referência -> A4
 
-Motor DC
+Motor CC
 * PWM in -> D7
 
-Micro Servo gás
+Micro Servo do gás combustivel
 * Sinal -> D9
 
-Micro Servo válvula rotular
+Micro Servo válvula de CO2
 * Sinal -> D10
 
+Piezo do tipo Buzzer
+* Sinal -> D13
+
+Chave Tactil (Push Button) 4 vias
+* Sinal -> D8
+
+Protoboard 400 pontos
+
+Arduino Uno R3
 
 ### Funcionamento do Circuito:
 
