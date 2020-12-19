@@ -24,7 +24,7 @@ O processo de fermentação em si, faz com que as leveduras consumam todos os a�
 
 ![cervejatemp](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/cervejatemp.jpg)
 
-Em praticamente todas receitas de cerveja é indicado uma temperatura ideal para a fermentação.Isso se deve ao fato de que para a levedura trabalhar e converter todo o açúcar do mosto em álcool são necessárias condições ideais. E a temperatura é uma das principais!
+Em praticamente todas as receitas de cerveja é indicado uma temperatura ideal para a fermentação.Isso se deve ao fato de que para a levedura trabalhar e converter todo o açúcar do mosto em álcool são necessárias condições ideais. E a temperatura é uma das principais!
 Quando a temperatura se encontra na faixa ideal da levedura, este pode fazer o seu trabalho de modo mais natural e sem estresse.
 
 É fácil de visualizar isso quando pensamos que nós trabalhamos praticamente da mesma forma! Imagine que você está em seu local de trabalho e o ar condicionado quebrou, as janelas não podem ser abertas e praticamente não há ventilação! Realmente não é uma condição ideal de trabalho e a sua produtividade com certeza vai ser comprometida.
@@ -45,6 +45,9 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 5. Buzzer -> Interface sonora que sinaliza o término do processo de fermentação, ou algum problema que ocorra no sistema.
 6. Display LCD -> Interface visual para reportar informações do processo (temperatura, nível de CO2, tempo de fermentação) e alterá-las.
 7. Microcontrolador -> Plataforma de desenvolvimento que oferece controle e manipulação a partir da comunicação entre sensores, atuadores e sua programação. 
+
+## Sistema de Fermentação da Cerveja:
+ O caldo será mexido e aquecido até a temperatura desejada e durante o tempo que o usuario escolher. Durante a fermentação o caldo libera CO2, e a concentração de gás carbonico também pode ser escolhida pelo operador. O caldo deve ser mexido durante um tempo de X horas e após o motor que mexe o caldo deve ser desligado. Mesmo com o motor desligado o caldo continua fermentando durante o tempo que o usuario setou.
 
 ## Subsistemas
 * Configurar entradas: Para configurar os valores das entradas de temperatura e CO2, o usuario precisará pressionar o botão de configuração uma vez, o que habilitará que o sistema capture os valores dos potenciômetros, então o usuário irá mexer nos potenciômetros de forma a atingir os valores de temperatura e nivel de co2 que desejar, e irá pressionar o botão de configuração novamente para salvar os valores configurados.
