@@ -89,6 +89,25 @@ Hitachi HD44780
 * DB6 -> Porta D3
 * DB7 -> Porta D2
 
+Potenciômetros
+* Temperatura -> A1
+* CO2 -> A2
+* Tempo -> A3
+
+TMP36
+* Referência -> A0
+
+Sensor de Gás
+* Referência -> A4
+
+Motor DC
+* PWM in -> D7
+
+Micro Servo gás
+* Sinal -> D9
+
+Micro Servo válvula rotular
+* Sinal -> D10
 
 ## Implementação para um produto real:
 Primeiramente, é importante ressaltar que, em uma aplicação presencial em sala de aula, seria usado a plataforma de desenvolvimento BeagleBone Black. Esta plataforma de desenvolvimento de baixo custo, diferente do Arduino Uno Rev3, não possui barreiras de uso exclusivo educacionais e pode ser utilizada comercialmente (simulando um projeto de engenharia embarcada real). Como o presente projeto se encontra em tempos de aulas EAD, simplificamos seu desenvolvimento em uma plataforma virtual de desenvolvimento, que apenas contava com o microcontrolador Arduino Rev3. Portanto, o projeto levará em conta os parametrôs da simulação em Tinkercad.
