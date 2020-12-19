@@ -7,7 +7,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 * Edson Jose Brumatti Junior - 9880169 - https://github.com/EdsonBrumatti
 * Gabriel Guarino - 9866419 - https://github.com/gabrielguarino97
 * Ícaro Almeida Aguiar - 9805042 - https://github.com/icaroaguir
-* Jorge Luis Faneco Paschoa - 9805824
+* Jorge Luis Faneco Paschoa - 9805824 - https://github.com/jorgelfp123
 * Matheus Borghi Ricardo de Oliveira - 8910517 - https://github.com/mtsborghi
 
 ### Instituição:
@@ -30,7 +30,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 
 
 ## Requisitos do Sistema:
-* Para esse projeto foi utilizada a plataforma de prototipagem eletrônica, Tinkercad, onde era possível utilizar nosso circuito em conjunto com o microcontrolador e verificar a lógica do código em conjunto com a funcionalidade do mesmo.
+* Para esse projeto foi utilizada a plataforma de prototipagem eletrônica, Tinkercad, onde era possível utilizar nosso circuito em conjunto com o microcontrolador e verificar a lógica do código em conjunto com a simulação do nosso circuito virtual e a funcionalidade do mesmo.
 * A BB Black conta com um processador AM335x, que integra um ARM Cortex™-A8 com velocidade de 1GHz, 512MB (tipo DDR3) de memória RAM e 4GB de memória flash (8 bits).
 
 
