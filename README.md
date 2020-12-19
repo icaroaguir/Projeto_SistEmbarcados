@@ -20,7 +20,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 
 A realização do processo de fermentação de bebidas foi praticada pelos povos primitivos pela primeira vez. Desde então, o processo continuou sendo realizado, até chegar no patamar e no nível de desenvolvimento que temos atualmente, considerando todas as etapas e profissionais que auxiliam e ajudam no processo de fermentação de bebidas.
 
-O processo de fermentação em si, faz com que as leveduras consumam todos os açúcares fermentáveis contidos na planta, gerando pôster e principalmente, o álcool e o CO2. Não somente são produzidos esses itens na fermentação, mas como também os aromas e os sabores, que são grandes valores da cerveja, somados com a redução do Ph da bebida.
+O processo de fermentação em si, faz com que as leveduras consumam todos os açúcares fermentáveis contidos na planta, gerando o álcool e o CO2. Não somente são produzidos esses itens na fermentação, mas como também os aromas e os sabores, que são grandes valores da cerveja, somados com a redução do Ph da bebida.
 
 ![cervejatemp](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/cervejatemp.jpg)
 
@@ -52,10 +52,10 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 * 12- Motor CC -> Atuador que vai mexer a mistura
 
 ### Sistema de Fermentação da Cerveja:
-A mistura será mexida e aquecida até a temperatura desejada e durante o tempo que o usuario escolher. Durante a fermentação a mistura libera CO2, e a concentração de gás carbonico também pode ser escolhida pelo operador. O conteúdo deve ser mexido durante um tempo de X horas e após o motor DC deve ser desligado. Mesmo com o motor DC desligado, a mistura continua fermentando durante o tempo que o usuário setou.
+A mistura será aquecida e mantida na temperatura desejada, e pelo tempo que o usuário escolher. Durante a fermentação a mistura libera CO2, e a concentração de gás carbônico também pode ser escolhida. O conteúdo deve ser mexido durante toda a duração da fermentação, o que será feito pelo motor DC. Os niveis de temperatura e CO2 serão controlados por servomotores, enquanto um piezo será usado para emitir um sinal sonoro caso o sistema apresente algum problema. Ao final do tempo configurado pelo usuário, todos os atuadores são desligados e fechados para manter o mosto isolado e estavél dentro da câmara de fermentação.
 
-### Subsistemas
-* Configurar entradas: Para configurar os valores das entradas de temperatura, CO2 e tempo, o usuario precisará pressionar o botão de configuração uma vez, o que habilitará que o sistema capture os valores dos potenciômetros, então o usuário irá mexer nos potenciômetros de forma a atingir os valores de temperatura, nivel de co2 e tempo que desejar, e irá pressionar o botão de configuração novamente para salvar os valores configurados, após isso o processo se inicia, e é parado ao pressionar o botão novamente.
+## Subsistemas
+* Configurar entradas: Para configurar os valores das entradas de temperatura, CO2 e tempo, o usuario precisará pressionar o botão de configuração uma vez, o que habilitará que o sistema capture os valores dos potenciômetros, então o usuário irá mexer nos potenciômetros de forma a atingir os valores de temperatura, nivel de CO2 e tempo que desejar, e irá pressionar o botão de configuração novamente para salvar os valores configurados, após isso o processo se inicia, e é parado ao pressionar o botão novamente.
 
 * Temperatura: O subsistema de temperatura conta com um Sensor de Temperatura (TMP36), um Microservo de Posição e um Potenciômetro. Após o operador configurar as entradas, o sensor de temperatura monitora a temperatura do mosto, e enquanto a temperatura medida for menor que a desejada o Microservo mantém a válvula de gás da caldeira com uma abertura grande para grandes diferenças de temperatura, e dimui essa abertura conforme a temperatura se aproxima do valor desejado. Caso a temperatura seja menor que a desejada, o Microservo reduz a abertura da válvula lentamente.
 
@@ -68,20 +68,16 @@ A mistura será mexida e aquecida até a temperatura desejada e durante o tempo 
 * Display LCD: O display LCD será responsável por exibir o estado do sistema de controle, mostrando as informações de tempo, nível de CO2 e temperatura, viabilizando assim o monitoramento em tempo real dos sensores, e a configuração dos valores dos potenciômetros no inicio do processo.
 
 
-## Requisitos do Sistema:
+### Requisitos do Sistema:
 * Para esse projeto foi utilizada a plataforma de prototipagem eletrônica, Tinkercad, onde era possível utilizar nosso circuito em conjunto com o microcontrolador e verificar a lógica do código em conjunto com a simulação do nosso circuito virtual e a funcionalidade do mesmo.
 * A BB Black conta com um processador AM335x, que integra um ARM Cortex™-A8 com velocidade de 1GHz, 512MB (tipo DDR3) de memória RAM e 4GB de memória flash (8 bits).
-
-## Funcionamento do Circuito:
-
-https://drive.google.com/file/d/1nF3kX4WAEIHPiK4Epj9q3O7D1zQL8xMO/view?usp=sharing
 
 ## Bibliotecas:
 * https://www.arduino.cc/reference/en/libraries/servo/
 * https://www.arduino.cc/en/Reference/LiquidCrystal
 
 ## Instalação:
-Hitachi HD44780
+Tela LCD Hitachi HD44780
 * RS -> Porta D12
 * E -> Porta D11
 * DB4 -> Porta D5
@@ -109,5 +105,11 @@ Micro Servo gás
 Micro Servo válvula rotular
 * Sinal -> D10
 
-## Implementação para um produto real:
-Primeiramente, é importante ressaltar que, em uma aplicação presencial em sala de aula, seria usado a plataforma de desenvolvimento BeagleBone Black. Esta plataforma de desenvolvimento de baixo custo, diferente do Arduino Uno Rev3, não possui barreiras de uso exclusivo educacionais e pode ser utilizada comercialmente (simulando um projeto de engenharia embarcada real). Como o presente projeto se encontra em tempos de aulas EAD, simplificamos seu desenvolvimento em uma plataforma virtual de desenvolvimento, que apenas contava com o microcontrolador Arduino Rev3. Portanto, o projeto levará em conta os parametrôs da simulação em Tinkercad.
+
+### Funcionamento do Circuito:
+
+https://drive.google.com/file/d/1nF3kX4WAEIHPiK4Epj9q3O7D1zQL8xMO/view?usp=sharing
+
+
+### Implementação para um produto real:
+Primeiramente, é importante ressaltar que, em uma aplicação presencial em sala de aula, seria usado a plataforma de desenvolvimento BeagleBone Black. Esta plataforma de desenvolvimento de baixo custo, diferente do Arduino Uno Rev3, não possui barreiras de uso exclusivo educacionais e pode ser utilizada comercialmente (simulando um projeto de engenharia embarcada real). Como o presente projeto se encontra em tempos de aulas EAD, simplificamos seu desenvolvimento em uma plataforma virtual de desenvolvimento, que apenas contava com o microcontrolador Arduino Uno Rev3. Portanto, o projeto levará em conta os parametrôs da simulação no Tinkercad.
