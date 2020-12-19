@@ -16,6 +16,18 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 ### Docente Responsável:
 * Glauco Augusto de Paula Caurin
 
+##Introdução 
+
+Em praticamente todas receitas de cerveja é indicado uma temperatura ideal para a fermentação.Isso se deve ao fato de que para a levedura trabalhar e converter todo o açúcar do mosto em álcool são necessárias condições ideais. E a temperatura é uma das principais!
+Quando a temperatura se encontra na faixa ideal da levedura, este pode fazer o seu trabalho de modo mais natural e sem estresse.
+
+É fácil de visualizar isso quando pensamos que nós trabalhamos praticamente da mesma forma! Imagine que você está em seu local de trabalho e o ar condicionado quebrou, as janelas não podem ser abertas e praticamente não há ventilação! Realmente não é uma condição ideal de trabalho e a sua produtividade com certeza vai ser comprometida.
+
+Com as leveduras acontece a mesma coisa. Sob estresse elas podem gerar diversos sabores e aromas indesejados na cerveja (off-flavors), tais como aromas frutados demais ou até notas muito alcoólicas. Além disso é capaz que, nestas circunstâncias, ela não termine de fermentar por completo a cerveja (baixa atenuação).
+
+A solução ideal para então controlar melhor a temperatura da fermentação é o uso de um sistema que consiga identificar a temperatura na câmara de fermentação e de maneira inteligente consiga controlá-la.
+
+
 ## Descrição do Projeto:
 * Será implementado um controlador para um processo de fermentação de cerveja, com controle de temperatura e nível de CO2 dentro da câmara de fermentação. Conforme visto na figura abaixo:
 ![Circuito](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/circuito.png)
