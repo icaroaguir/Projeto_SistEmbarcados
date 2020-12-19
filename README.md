@@ -43,7 +43,7 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 * 3- Potenciometro de Temperatura -> Promove a interface para o usuario escolher a temperatura
 * 4- Potenciometro de CO2 -> Promove a interface para o usuario escolher a concentração de CO2
 * 5- Potenciometro de Tempo -> Promove a interface para o usuario escolher o tempo
-* 6 Sensor de Gás -> Aferir a concentração de CO2
+* 6- Sensor de Gás -> Aferir a concentração de CO2
 * 7 Botão -> Interface que permite setar as configurações
 * 8 Piezo Buzzer -> Interface sonora que sinaliza o término do processo de fermentação, ou algum problema que ocorra no sistema.
 * 9 LCD 16 x 2 -> Interface visual para reportar informações do processo (temperatura, nível de CO2, tempo de fermentação) e alterá-las.
