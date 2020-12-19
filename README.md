@@ -39,7 +39,7 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 ![CircuitoFinal](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/CircuitoFinal.PNG)
 * No circuito constam os seguites elementos e suas funções:
 * 1- Arduino -> Microcontrolador
-* 2 Sensor de Temperatura [TMP36] -> Aferir a temperatura da mistura liquida
+* 2- Sensor de Temperatura [TMP36] -> Aferir a temperatura da mistura liquida
 * 3 Potenciometro de Temperatura -> Promove a interface para o usuario escolher a temperatura
 * 4 Potenciometro de CO2 -> Promove a interface para o usuario escolher a concentração de CO2
 * 5 Potenciometro de Tempo -> Promove a interface para o usuario escolher o tempo
