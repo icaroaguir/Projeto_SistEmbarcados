@@ -14,7 +14,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 * Escola de Engenharia de São Carlos - USP
 
 ### Docente Responsável:
-* Glauco Caurin
+* Glauco Augusto de Paula Caurin
 
 ## Descrição do Projeto:
 * Será implementado o código de um sistema controlador do processo de fermentação de cerveja. Conforme visto na figura abaixo:
