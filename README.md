@@ -19,14 +19,14 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 ## Descrição do Projeto:
 * Será implementado o código de um sistema controlador do processo de fermentação de cerveja. Conforme visto na figura abaixo:
 ![Circuito](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/circuito.png)
-* O circuito consta dos seguites elementos:
-1. Sensor de temperatura;
-2. Potenciometro para controle da temperatura;
-3. Servo motor, representando as pás giratórias;
-4. Motor, representando a inclinação da tampa da caldeira;
-5. Buzzer para sinalizar quando o processo acabar;
-6. Display para repassar informações do processo;
-7. Microcontrolador.
+* O circuito consta dos seguites elementos e suas funções:
+1. Sensor de temperatura -> Aferir a temperatura da mistura líquida.
+2. Potenciometro -> Promove a interface para regular a temperatura da mistura líquida.
+3. Servo motor -> Representa as pás giratórias, que misturam os ingredientes para posterior fermentação.
+4. Motor DC -> Utilizado para regular a inclinação da tampa da caldeira.
+5. Buzzer -> Interface sonora que sinaliza o término do processo de fermentação.
+6. Display LCD -> Interface visual para reportar informações do processo (temperatura, tempo de fermentação) e alterá-las.
+7. Microcontrolador -> Plataforma de desenvolvimento que oferece controle e manipulação a partir da comunicação entre sensores, atuadores e sua programação. 
 
 
 ## Requisitos do Sistema:
@@ -35,4 +35,4 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 
 
 ## Implementação para um produto real:
-Primeiramente, é importante ressaltar que em uma aplicação presencial em sala de aula, seria usado a plataforma de desenvolvimento BeagleBone Black. Esta plataforma de desenvolvimento de baixo custo, diferente do Arduino Uno Rev3, não possui barreiras de uso exclusivo educacionais e pode ser utilizada comercialmente (simulando um projeto de engenharia embarcada real). Como o presente projeto se encontra em tempos de aulas EAD, simplificamos seu desenvolvimento em uma plataforma virtual de desenvolvimento, que apenas contava com o microcontrolador Arduino Rev3. Portanto, o projeto levará em conta os parametrôs da simulação em Tinkercad.
+Primeiramente, é importante ressaltar que, em uma aplicação presencial em sala de aula, seria usado a plataforma de desenvolvimento BeagleBone Black. Esta plataforma de desenvolvimento de baixo custo, diferente do Arduino Uno Rev3, não possui barreiras de uso exclusivo educacionais e pode ser utilizada comercialmente (simulando um projeto de engenharia embarcada real). Como o presente projeto se encontra em tempos de aulas EAD, simplificamos seu desenvolvimento em uma plataforma virtual de desenvolvimento, que apenas contava com o microcontrolador Arduino Rev3. Portanto, o projeto levará em conta os parametrôs da simulação em Tinkercad.
