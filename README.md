@@ -77,13 +77,13 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 * https://www.arduino.cc/en/Reference/LiquidCrystal
 
 ## Instalação:
-* Hitachi HD44780
--> RS: Porta D12
--> E: Porta D11
--> DB4: Porta D5
--> DB5: Porta D4
--> DB6: Porta D3
--> DB7: Porta D2
+Hitachi HD44780
+* RS -> Porta D12
+* E -> Porta D11
+* DB4 -> Porta D5
+* DB5 -> Porta D4
+* DB6 -> Porta D3
+* DB7 -> Porta D2
 
 
 ## Implementação para um produto real:
