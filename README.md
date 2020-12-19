@@ -38,18 +38,18 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 * Será implementado um controlador para um processo de fermentação de cerveja, com controle de temperatura e nível de CO2 dentro da câmara de fermentação. Conforme visto na figura abaixo:
 ![Circuito](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/circuito.png)
 * No circuito constam os seguites elementos e suas funções:
-1 Arduino -> Microcontrolador
-2 Sensor de Temperatura [TMP36] -> Aferir a temperatura da mistura liquida
-3 Potenciometro de Temperatura -> Promove a interface para o usuario escolher a temperatura
-4 Potenciometro de CO2 -> Promove a interface para o usuario escolher a concentração de CO2
-5 Potenciometro de Tempo -> Promove a interface para o usuario escolher o tempo
-6 Sensor de Gás -> Aferir a concentração de CO2
-7 Botão -> Interface que permite setar as configurações
-8 Piezo Buzzer -> Interface sonora que sinaliza o término do processo de fermentação, ou algum problema que ocorra no sistema.
-9 LCD 16 x 2 -> Interface visual para reportar informações do processo (temperatura, nível de CO2, tempo de fermentação) e alterá-las.
-10 Micro Servo CO2 -> Atuador que pode ser usado para liberar gás carbonico e diminuir a concentração
-11 Micro Servo Gás -> Atuador que controla a entrada de gás para queima e controlar a temperatura
-12 Motor CC -> Atuador que vai mexer a mistura
+* 1 Arduino -> Microcontrolador
+* 2 Sensor de Temperatura [TMP36] -> Aferir a temperatura da mistura liquida
+* 3 Potenciometro de Temperatura -> Promove a interface para o usuario escolher a temperatura
+* 4 Potenciometro de CO2 -> Promove a interface para o usuario escolher a concentração de CO2
+* 5 Potenciometro de Tempo -> Promove a interface para o usuario escolher o tempo
+* 6 Sensor de Gás -> Aferir a concentração de CO2
+* 7 Botão -> Interface que permite setar as configurações
+* 8 Piezo Buzzer -> Interface sonora que sinaliza o término do processo de fermentação, ou algum problema que ocorra no sistema.
+* 9 LCD 16 x 2 -> Interface visual para reportar informações do processo (temperatura, nível de CO2, tempo de fermentação) e alterá-las.
+* 10 Micro Servo CO2 -> Atuador que pode ser usado para liberar gás carbonico e diminuir a concentração
+* 11 Micro Servo Gás -> Atuador que controla a entrada de gás para queima e controlar a temperatura
+* 12 Motor CC -> Atuador que vai mexer a mistura
 
 ## Sistema de Fermentação da Cerveja:
  O caldo será mexido e aquecido até a temperatura desejada e durante o tempo que o usuario escolher. Durante a fermentação o caldo libera CO2, e a concentração de gás carbonico também pode ser escolhida pelo operador. O caldo deve ser mexido durante um tempo de X horas e após o motor que mexe o caldo deve ser desligado. Mesmo com o motor desligado o caldo continua fermentando durante o tempo que o usuario setou.
