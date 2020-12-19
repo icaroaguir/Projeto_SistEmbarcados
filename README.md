@@ -46,7 +46,7 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 * 6- Sensor de Gás -> Aferir a concentração de CO2
 * 7- Botão -> Interface que permite setar as configurações
 * 8- Piezo Buzzer -> Interface sonora que sinaliza o término do processo de fermentação, ou algum problema que ocorra no sistema.
-* 9 LCD 16 x 2 -> Interface visual para reportar informações do processo (temperatura, nível de CO2, tempo de fermentação) e alterá-las.
+* 9- LCD 16 x 2 -> Interface visual para reportar informações do processo (temperatura, nível de CO2, tempo de fermentação) e alterá-las.
 * 10 Micro Servo CO2 -> Atuador que pode ser usado para liberar gás carbonico e diminuir a concentração
 * 11 Micro Servo Gás -> Atuador que controla a entrada de gás para queima e controlar a temperatura
 * 12 Motor CC -> Atuador que vai mexer a mistura
