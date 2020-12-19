@@ -72,6 +72,10 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 * Para esse projeto foi utilizada a plataforma de prototipagem eletrônica, Tinkercad, onde era possível utilizar nosso circuito em conjunto com o microcontrolador e verificar a lógica do código em conjunto com a simulação do nosso circuito virtual e a funcionalidade do mesmo.
 * A BB Black conta com um processador AM335x, que integra um ARM Cortex™-A8 com velocidade de 1GHz, 512MB (tipo DDR3) de memória RAM e 4GB de memória flash (8 bits).
 
+## Funcionamento do Circuito:
+
+![Demonstração do Circuito](https://drive.google.com/file/d/1nF3kX4WAEIHPiK4Epj9q3O7D1zQL8xMO/view?usp=sharing)
+
 ## Bibliotecas:
 * https://www.arduino.cc/reference/en/libraries/servo/
 * https://www.arduino.cc/en/Reference/LiquidCrystal
