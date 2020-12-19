@@ -34,7 +34,7 @@ Com as leveduras acontece a mesma coisa. Sob estresse elas podem gerar diversos 
 A solução ideal para então controlar melhor a temperatura da fermentação é o uso de um sistema que consiga identificar a temperatura na câmara de fermentação e de maneira inteligente consiga controlá-la.
 
 
-## Descrição do Projeto:
+### Descrição do Projeto:
 * Será implementado um controlador para um processo de fermentação de cerveja, com controle de temperatura e nível de CO2 dentro da câmara de fermentação. Conforme visto na figura abaixo:
 ![CircuitoFinal](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/CircuitoFinal.PNG)
 * No circuito constam os seguites elementos e suas funções:
@@ -51,10 +51,10 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 * 11 Micro Servo Gás -> Atuador que controla a entrada de gás para queima e controlar a temperatura
 * 12 Motor CC -> Atuador que vai mexer a mistura
 
-## Sistema de Fermentação da Cerveja:
+### Sistema de Fermentação da Cerveja:
  O caldo será mexido e aquecido até a temperatura desejada e durante o tempo que o usuario escolher. Durante a fermentação o caldo libera CO2, e a concentração de gás carbonico também pode ser escolhida pelo operador. O caldo deve ser mexido durante um tempo de X horas e após o motor que mexe o caldo deve ser desligado. Mesmo com o motor desligado o caldo continua fermentando durante o tempo que o usuario setou.
 
-## Subsistemas
+### Subsistemas
 * Configurar entradas: Para configurar os valores das entradas de temperatura e CO2, o usuario precisará pressionar o botão de configuração uma vez, o que habilitará que o sistema capture os valores dos potenciômetros, então o usuário irá mexer nos potenciômetros de forma a atingir os valores de temperatura e nivel de co2 que desejar, e irá pressionar o botão de configuração novamente para salvar os valores configurados.
 
 * Temperatura: O subsistema de temperatura conta com um Sensor de Temperatura (TMP36), um Microservo de Posição e um Potenciômetro. Após o operador configurar as entradas, o sensor de temperatura monitora a temperatura do mosto, e enquanto a temperatura medida for menor que a desejada o Microservo mantém a válvula de gás da caldeira com uma abertura grande para grandes diferenças de temperatura, e dimui essa abertura conforme a temperatura se aproxima do valor desejado. Caso a temperatura seja maior que a desejada, o Microservo reduz a abertura da válvula lentamente.
