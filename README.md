@@ -29,7 +29,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 7. Microcontrolador -> Plataforma de desenvolvimento que oferece controle e manipulação a partir da comunicação entre sensores, atuadores e sua programação. 
 
 ## Subsistemas
-* Temperatura: O subsistema de temperatura conta com um botão, um Sensor de Temperatura (TMP), um Microservo de Posição e um Potenciometro. O operador aperta o botão que lhe permite escolher a temperatura girando o potenciometro. O sensor de temperatura monitora a temperatura e enquanto a temperatura medida for menor que a desejada o Microservo mantem a valvula aberta. Caso a temperatura seja maior ou igual a temperatura desejada, o Microserve fecha a valvula
+* Temperatura: O subsistema de temperatura conta com um botão, um Sensor de Temperatura (TMP), um Microservo de Posição e um Potenciometro. O operador aperta o botão que lhe permite escolher a temperatura girando o potenciometro. O sensor de temperatura monitora a temperatura e enquanto a temperatura medida for menor que a desejada o Microservo mantem a valvula de gás da caldeira aberta. Caso a temperatura seja maior ou igual a temperatura desejada, o Microserve fecha a valvula
 
 * CO2
 
