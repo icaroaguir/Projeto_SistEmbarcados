@@ -4,9 +4,9 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 
 ### Alunos:
 
-* Edson Jose Brumatti Junior - 9880169 - https://github.com/icaroaguir
+* Edson Jose Brumatti Junior - 9880169 - https://github.com/EdsonBrumatti
 * Gabriel Guarino - 9866419 - https://github.com/gabrielguarino97
-* Ícaro Almeida Aguiar - 9805042 - https://github.com/EdsonBrumatti
+* Ícaro Almeida Aguiar - 9805042 - https://github.com/icaroaguir
 * Jorge Luis Faneco Paschoa - 9805824
 * Matheus Borghi Ricardo de Oliveira - 8910517 - https://github.com/mtsborghi
 
