@@ -52,7 +52,7 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 * 12- Motor CC -> Atuador que vai mexer a mistura
 
 ### Sistema de Fermentação da Cerveja:
- O caldo será mexido e aquecido até a temperatura desejada e durante o tempo que o usuario escolher. Durante a fermentação o caldo libera CO2, e a concentração de gás carbonico também pode ser escolhida pelo operador. O caldo deve ser mexido durante um tempo de X horas e após o motor que mexe o caldo deve ser desligado. Mesmo com o motor desligado o caldo continua fermentando durante o tempo que o usuario setou.
+A mistura será mexida e aquecida até a temperatura desejada e durante o tempo que o usuario escolher. Durante a fermentação a mistura libera CO2, e a concentração de gás carbonico também pode ser escolhida pelo operador. O conteúdo deve ser mexido durante um tempo de X horas e após o motor DC deve ser desligado. Mesmo com o motor DC desligado, a mistura continua fermentando durante o tempo que o usuário setou.
 
 ### Subsistemas
 * Configurar entradas: Para configurar os valores das entradas de temperatura, CO2 e tempo, o usuario precisará pressionar o botão de configuração uma vez, o que habilitará que o sistema capture os valores dos potenciômetros, então o usuário irá mexer nos potenciômetros de forma a atingir os valores de temperatura, nivel de co2 e tempo que desejar, e irá pressionar o botão de configuração novamente para salvar os valores configurados, após isso o processo se inicia, e é parado ao pressionar o botão novamente.
