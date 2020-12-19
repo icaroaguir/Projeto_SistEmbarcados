@@ -65,7 +65,7 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 
 * Buzzer: O Buzzer será responsável por alertar o usuário do sistema quando a temperatura desejada estiver fora do padrão dado um erro de dois(02) graus célsius acima ou abaixo do desejado. Dessa forma o alerta será dado de forma a previnir algum acidente e que o usuário perca o produto, pois o controle de temperatura é essencial no processo de fermentação.
 
-* Display LCD: O display LCD será responsável por dar visualização do status do sistema de controle de temperaturado sistema, viabilizando o monitoramento em tempo real se o input de temperatura desejada está sendo atingida e mantida.
+* Display LCD: O display LCD será responsável por exibir o estado do sistema de controle, mostrando as informações de tempo, nível de CO2 e temperatura, viabilizando assim o monitoramento em tempo real dos sensores, e a configuração dos valores dos potenciômetros no inicio do processo.
 
 
 ## Requisitos do Sistema:
