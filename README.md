@@ -86,7 +86,7 @@ Tela LCD Hitachi HD44780
 * DB6 -> Porta D3
 * DB7 -> Porta D2
 
-Potenciômetros
+Potenciômetros 250K Ohms
 * Temperatura -> A1
 * CO2 -> A2
 * Tempo -> A3
@@ -111,6 +111,11 @@ Piezo do tipo Buzzer
 
 Chave Tactil (Push Button) 4 vias
 * Sinal -> D8
+
+Resistências
+* 1x 200 Ohms
+* 1x 1 Ohm
+* 2x 4.7K Ohms
 
 Protoboard 400 pontos
 
