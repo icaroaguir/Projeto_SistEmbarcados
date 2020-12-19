@@ -19,7 +19,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 ## Descrição do Projeto:
 * Será implementado o código de um sistema controlador do processo de fermentação de cerveja. Conforme visto na figura abaixo:
 ![Circuito](https://github.com/icaroaguir/Projeto_SistEmbarcados/blob/main/circuito.png)
-* O circuito consta dos seguites elementos e suas funções:
+* No circuito constam os seguites elementos e suas funções:
 1. Sensor de temperatura -> Aferir a temperatura da mistura líquida.
 2. Potenciometro -> Promove a interface para regular a temperatura da mistura líquida.
 3. Servo motor -> Representa as pás giratórias, que misturam os ingredientes para posterior fermentação.
