@@ -30,7 +30,7 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 
 ## Subsistemas
 Temperatura: O subsistema de temperatura conta com um Sensor de Temperatura (TMP), um Microservo de Posição e um Potenciometro. 
-
+Display LCD: O display LCD será responsável por dar visualização do status do sistema de controle de temperaturado sistema, viabilizando o monitoramento em tempo real se o input de temperatura desejada está sendo atingida e mantida.
 
 ## Requisitos do Sistema:
 * Para esse projeto foi utilizada a plataforma de prototipagem eletrônica, Tinkercad, onde era possível utilizar nosso circuito em conjunto com o microcontrolador e verificar a lógica do código em conjunto com a simulação do nosso circuito virtual e a funcionalidade do mesmo.
