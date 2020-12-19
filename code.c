@@ -7,6 +7,8 @@
 #include <unistd.h>
 #include <netdb.h>
 #include <pthread.h>
+#include <LiquidCrystal.h>
+#include <Servo.h>
 
 int main(void){
 
