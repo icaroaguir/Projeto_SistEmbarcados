@@ -74,7 +74,11 @@ A solução ideal para então controlar melhor a temperatura da fermentação é
 
 ## Funcionamento do Circuito:
 
-![Demonstração do Circuito](https://drive.google.com/file/d/1nF3kX4WAEIHPiK4Epj9q3O7D1zQL8xMO/view?usp=sharing)
+https://drive.google.com/file/d/1nF3kX4WAEIHPiK4Epj9q3O7D1zQL8xMO/view?usp=sharing
+
+## Bibliotecas:
+* https://www.arduino.cc/reference/en/libraries/servo/
+* https://www.arduino.cc/en/Reference/LiquidCrystal
 
 ## Instalação:
 Hitachi HD44780
