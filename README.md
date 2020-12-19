@@ -18,6 +18,10 @@ Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos al
 
 ### Introdução 
 
+A realização do processo de fermentação de bebidas foi praticada pelos povos primitivos pela primeira vez. E desde então, o processo continuou sendo realizado, até chegar no patamar e no nível de desenvolvimento que temos atualmente, considerando todas as etapas e profissionais que auxiliam e ajudam no processo de fermentação de bebidas.
+
+O processo de fermentação em si, faz com que as leveduras consumam todos os açúcares fermentáveis contidos na planta, gerando pôster e principalmente, o álcool e o CO2. Mas não são somente esses itens que são produzidos na fermentação, os aromas e os sabores por exemplo, que são grandes valores da cerveja são produzidos também, somados com a redução do Ph da cerveja.
+
 Em praticamente todas receitas de cerveja é indicado uma temperatura ideal para a fermentação.Isso se deve ao fato de que para a levedura trabalhar e converter todo o açúcar do mosto em álcool são necessárias condições ideais. E a temperatura é uma das principais!
 Quando a temperatura se encontra na faixa ideal da levedura, este pode fazer o seu trabalho de modo mais natural e sem estresse.
 
