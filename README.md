@@ -1,6 +1,6 @@
 # Projeto de Controle de Fermentação de Cerveja
 
-Projeto desenvolvido para disciplina de Sistemas Embarcados (SAA0356) pelos alunos do curso de Engenharia Mecatrônica. O projeto visa a construção do conceito de um sistema de controle de fermentação de cerveja em uma caldeira industrial. Será feito a validação do projeto via simulação online na ferramenta TINKERCAD. 
+Projeto desenvolvido para a disciplina de Sistemas Embarcados (SAA0356) pelos alunos do curso de Engenharia Mecatrônica. O projeto visa a construção do conceito de um sistema de controle de fermentação de cerveja em uma caldeira industrial. Será feito a validação do projeto via simulação online na ferramenta TINKERCAD. 
 
 ### Alunos:
 
