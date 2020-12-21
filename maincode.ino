@@ -44,7 +44,7 @@ unsigned long dtime = 1000; // delay time
 
 void setup(){
 
-    Serial.begin(9600);
+    	Serial.begin(9600);
   	lcd.begin(16, 2);
   	pinMode(pinoBotao, INPUT_PULLUP);
   	valv.attach(10);
@@ -59,7 +59,7 @@ void loop(){
   	
   	//Leitura de sensores de temperatura e CO2
   	TEMPS = readtemps(TEMPS);
-    CO2S = readco2s(CO2S);
+   	CO2S = readco2s(CO2S);
   	
   	delay(500);
   	lcd.clear();
@@ -69,32 +69,32 @@ void loop(){
       
 		TEMPP = settemp(TEMPP);
   		CO2P = setco2(CO2P);
-      	flag = 1;
-      	// Chama o método para verificar o tempo pedido
-      	dtime = dtime*settime();
-      	// Começa a contar o tempo com stime
-      	stime = millis();
-      	Serial.print("Tempo pedido \n");
-      	Serial.print(dtime/1e3);
-      	Serial.print("\n");
+      		flag = 1;
+      		// Chama o método para verificar o tempo pedido
+      		dtime = dtime*settime();
+      		// Começa a contar o tempo com stime
+      		stime = millis();
+      		Serial.print("Tempo pedido \n");
+      		Serial.print(dtime/1e3);
+      		Serial.print("\n");
       	
-      	lcd.clear();
-      	lcd.setCursor(0,0);
+      		lcd.clear();
+      		lcd.setCursor(0,0);
 		lcd.print("Tempo pedido:");
   		lcd.setCursor(5,1);
 		lcd.print(dtime/1e3);
   		lcd.setCursor(10,1);
-      	lcd.print("s");
-      	delay(1000);
+      		lcd.print("s");
+      		delay(1000);
 	} 
   	
   	if(flag == 1){
   		  	      		
       		// Chama o método para verificar temperatura
-  			checktemp(TEMPS,TEMPP);
+  		checktemp(TEMPS,TEMPP);
   	
-  			// Chama o método para verificar nivel de CO2
-  			checkCO2(CO2S,CO2P);
+  		// Chama o método para verificar nivel de CO2
+  		checkCO2(CO2S,CO2P);
       
     		playbuzzer(TEMPS,TEMPP);
       
@@ -105,17 +105,17 @@ void loop(){
   	// Verifica se o tempo utilizado já foi ultrapassado
   	if(flag && (millis() - stime >= dtime) ){
   		//Serial.print("Parada \n");
-        flag = 0; // zera a flag do botão
-      	activatemixer(false); // desliga o motor      	
-      	valv.write(0);
-      	digitalWrite(PINO_PIEZO, LOW);
-      	stove.write(0);
-      	dtime = 1000; // reseta o delay para 1000 ms
+        	flag = 0; // zera a flag do botão
+      		activatemixer(false); // desliga o motor      	
+      		valv.write(0);
+      		digitalWrite(PINO_PIEZO, LOW);
+      		stove.write(0);
+      		dtime = 1000; // reseta o delay para 1000 ms
       	
-      	lcd.clear();
-      	lcd.setCursor(0,0);
+      		lcd.clear();
+      		lcd.setCursor(0,0);
 		lcd.print("Finalizado");
-      	delay(1000);
+      		delay(1000);
   	}
   
   	// Chama o método para atualizar a tela LCD
@@ -152,7 +152,7 @@ int settemp(int tp){
 	tp = analogRead(PINO_TEMPP);
    	tp = map(tp, 1023, 1, 0, 99);
  	lcd.print(tp);
-    return tp;
+   	return tp;
 }
 
 //Escolher a porcentagem de CO2 do processo de fermentação
@@ -163,7 +163,7 @@ int setco2(int co2){
   	co2 = analogRead(PINO_CO2P);
  	co2 = map(co2, 1023, 1, 0, 100);
  	lcd.print(co2);
-    return co2;
+    	return co2;
 }
 
 //Verifica a igualdade das tempertaturas do sensor e setada
@@ -171,11 +171,11 @@ int setco2(int co2){
 //para aquecer o forno até que a temperatura esteja adequada 
 void checktemp(float ts, float tp){
   	if(ts != tp){
-    	float abertura = (ts/tp)*100;
-    	float commandstove = map(abertura, 0, 100, 90, 1);
+    		float abertura = (ts/tp)*100;
+    		float commandstove = map(abertura, 0, 100, 90, 1);
   		stove.write(commandstove);
     } else{
-    	stove.write(0);
+    		stove.write(0);
     }
 }
 
@@ -184,23 +184,23 @@ void checktemp(float ts, float tp){
 //para liberar o excesso de CO2 
 void checkCO2(float cs, float cp){ 
   	if(cs >= cp){
-    	float abertura2 = (cp/cs)*100;
-    	float commandvalv = map(abertura2, 0, 100, 90, 1);
+    		float abertura2 = (cp/cs)*100;
+    		float commandvalv = map(abertura2, 0, 100, 90, 1);
   		valv.write(commandvalv);
-    } else{
+    	} else{
   		valv.write(0);
-  	}  
+	}  
 }
 
 //Buzzer é acionado caso a temperatura aferida pelo sensor se 
 //encontra fora do intervalo aceitável do processo de fermentação
 void playbuzzer(int ts, int tp){
 	if(ts <= tp - 15 || ts >= tp +15  ){
-    	digitalWrite(PINO_PIEZO, HIGH);
-    }
+    		digitalWrite(PINO_PIEZO, HIGH);
+    	}
   	else{
-    	digitalWrite(PINO_PIEZO, LOW);
-  }
+    		digitalWrite(PINO_PIEZO, LOW);
+  	}
 }
 
 //LCD exibe as informações de temperatura e CO2 aferidos e setados
@@ -229,12 +229,12 @@ void refreshLCD(int tp, int cp, int ts, int cs, unsigned long dt, unsigned long 
   	delay(3000);
   
   	if((dt - millis() + st)/1000 < 120){
-      	lcd.clear();
+      		lcd.clear();
   		lcd.setCursor(0,0);
 		lcd.print("Tempo Restante:");
   		lcd.setCursor(0,1);
 		lcd.print((dt - millis() + st)/1000);
-      	delay(2000);
+      		delay(2000);
   	}
 }
 
