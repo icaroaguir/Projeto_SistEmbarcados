@@ -123,9 +123,12 @@ Arduino Uno R3
 
 ### Funcionamento do Circuito:
 
-O vídeo, link abaixo, mostra o funcionamento do circuito, demonstrando o que foi discutido nos itens acima.
+O vídeo no link abaixo mostra o funcionamento do circuito, demonstrando o que foi discutido nos itens acima.
 
 https://drive.google.com/file/d/1RAlesa3g3qQpI0Xx5SK1miZ3aZpK6RmR/view?usp=sharing
+
+## Projeto no TinkerCAD:
+https://www.tinkercad.com/things/joFkdmeWtmH
 
 
 ### Implementação para um produto real:
